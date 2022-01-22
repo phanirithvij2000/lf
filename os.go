@@ -179,3 +179,7 @@ func exportFiles(f string, fs []string, pwd string) {
 		os.Setenv("fx", envFiles)
 	}
 }
+
+func getWinDrives() []string {
+	return []string{}
+}
